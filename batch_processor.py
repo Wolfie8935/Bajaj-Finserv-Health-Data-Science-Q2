@@ -13,6 +13,8 @@ logger = logging.getLogger(__name__)
 
 if platform.system() == 'Windows':
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+if platform.system() == 'Linux':
+    pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 
 INPUT_DIR = "lbmaske"
 OUTPUT_DIR = "output"
