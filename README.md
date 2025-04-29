@@ -13,3 +13,5 @@ make sure all the files are in the directory of the dataset names lbsmaske
 finally run this command
 
 uvicorn main:app --reload
+
+app link: https://bajaj-finserv-health-data-science-q2.onrender.com/
